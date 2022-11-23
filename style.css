@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .main {
+      background:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('/images/20.jpg')50% 0 repeat-y fixed;
+      
+      background-size: cover;
+      
+     
+      align-items: center;
+      height: 70vh;
+      text-align: center;
+    }
+    .parallax-section {
+        background-attachment: fixed !important;
+        background-size: cover !important;
+      }
+    /* ----------------carousel css------------------------- */
+    .carousel {
+        /* margin-bottom: 4rem; */
+    }
+    
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+    
+    
+    .carousel-item {
+        height: 100vh;
+        background-color: #777;
+      }
+      
+      .item1 {
+          background-image: url("images/5274380.jpg");
+          background-size: cover;
+        }
+        .item2 {
+            background-image: url(/images/10.jpg),
+            linear-gradient(lightgreen, lightblue);
+            background-size: cover;
+        }
+        .item3 {
+            background-image: url(/images/11.jpg),
+            linear-gradient(to bottom, lightgreen, lightblue);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        /* ----------------carousel css------------------------- */
+        .blog-content {
+    
+            padding-top: 130px;
+            display: flex;
+            /* border: 2px solid goldenrod; */
+            background-image: url(/images/concrete-texture/concrete-texture/concrete-texture.png);
+            height: 100vh;
+            
+            width: 100%;
+            position: relative;
+           
+        }
+        
+        .card1 {
+           
+            padding: 0px 15px;
+           
+        }
+        
+        .card1 img {
+            max-width: 100%;
+            height: 470px;
+        }
+        
+        .card2 {
+           
+        
+            position: absolute;
+            /* border: 2px solid black; */
+            background-image: url(/images/18.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+            width: 425px;
+            height: 495px;
+            z-index: 1;
+            right: 625px;
+            background-position: center;
+            top: 250px;
+        }
+        
+        
+        
+        
+        .card3 {
+            
+            margin-left: 14%;
+            padding-left: 40px;
+            /* border: 2px solid palevioletred; */
+            width: 35%;
+        }
+        
+        
+        
+        .extend h3 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1;
+            /* margin-bottom: 35px; */
+        }
+        
+        .extend h3:nth-child(2) {
+            margin-bottom: 35px;
+        }
+        
+        
+        
+        .gallery-section {
+            /* border: 20px solid peru; */
+            padding: 140px 0 0px;
+        }
+        
+        .flex-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card-btn {
+            background-image: linear-gradient(to right, #fa0347 0%, #fc561c 50%, #fa0347 100%);
+            color: white;
+            /* box-shadow: 0 0.5rem 4rem pink; */
+        
+        }
+        
+        .card-btn:hover {
+            background-image: linear-gradient(to right, #fa0347 0%, #fc561c 50%, #fa0347 100%);
+            background-size: 200% auto;
+            color: pink;
+            box-shadow: 0 0.5rem 0.7rem #e31c3f;
+        }
+        
+        .btn-margin {
+            margin-top: 3rem
+        }
+        /*------------------------------- cards---------------------------- */
+        .motivation-container{
+            padding: 130px 70px 130px 70px;
+        }
+        #sign{
+            opacity: 0.2;
+        }
+        .value {
+            font-size: 100px;
+            display: block;
+            font-weight: bold;
+            color: #fff;
+          }
+       
